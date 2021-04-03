@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Installation</title>
+    <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <a class="navbar-band">Scott.Smitt</a>
+            <div class="collapse navbar-collapse" id="navbarnav">
+                <nov class="nav ml-auto">
+                    <a class="nav-link" href="#">Hoome</a>
+                    <a class="nav-link" href="#">Profile</a>
+                    <a class="nav-link" href="#">Experience</a>
+                    <a class="nav-link" href="#">Skill</a>
+                    <a class="nav-link" href="#">contact</a>
+                </nov>
+            </div>
+        </nav>    
+    </header>
+    <section id="infor">
+        <div class="jumbotron">
+            <dov class="container">
+                <div class="row">
+                    //this is for photo
+                    <div class="col-6">
+                        <img src="https://www.bioid.com/wp-content/uploads/face-database-bioid.jpg" >            
+                    </div>
+                    // this is for information
+                    <div class="col-6">
+                        <button class="btn btn-primary">hey! contact me here...</button>
+                        <div class="infor-header">
+                            <h1>I'm Scott</h1>
+                            <h4>Develop & Design</h4>
+                        </div>
+                        <p>2233 fairway drive, santa rose, ca, california</p>
+                        <p>+855 70 70 77 77</p>
+                        <p>scott.smitt@gmail.com</p>
+                    </div> 
+                </div>
+            </dov>
+        </div>
+
+    </section>
+    <script src="bootstrap-4.6.0-dist/js/jquery.js" ></script>
+
+    <script src="bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
